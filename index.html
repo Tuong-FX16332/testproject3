@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--File CSS -->
+    <link rel="stylesheet" href="Project2.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="Tablet.css">
+    <link rel="stylesheet" href="Desktop.css">
+</head>
+<body>
+    <nav>
+        <div class="container-lg">
+            <ul class="navbar sticky-top" id="menu">
+                <div class="navbar">
+                    <li class="nav-item"><a href="#" class="link1">Brand</a></li>
+                    <li class="nav-item"><a href="#" class="link1">Browse</a></li>
+                </div>
+                <div class="navbar">
+                    <li class="nav-item"><a href="#" class="link1">Sign up</a></li>
+                    <li class="nav-item"><a href="#" class="link1">Log in</a></li>
+                    <li class="nav-item"><a href="#" class="link1">Help</a></li>
+                </div>   
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="banner">
+            <img class="d-none d-lg-block" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png" alt="banner_img">
+            <div class="banner_doc">
+                <h1><b>Find a place to stay</b></h1>
+                <p>Rent from people in over 34,000 cities and 192 countries.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-doc">
+                <h2><b>Neighborhood Guides</b></h2>
+                <p>Not sure where to stay? We've created neighborhood guides for cities all around the world.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8" id="cot1">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" alt="mexico-city" class="img-ct">
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png" alt="ny" class="img-ct">
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" alt="tokyo" class="img-ct">
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png" alt="paris" class="img-ct">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" id="cot2"> 
+                    <div class="row" id="row-invite">
+                        <div class="col-md-6 col-lg">
+                            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png" alt="invite" class="img-ct" id="invite-img">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="footer1 col-lg-4">
+                <h4><b>Travel</b></h4>
+                <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+                <a href="#" class="link2">See how to travel on Airbnb</a>
+            </div>
+            <div class="footer1 col-lg-4">
+                <h4><b>Host</b></h4>
+                <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+                <a href="#" class="link2">Learn more about hosting</a>
+            </div>
+            <div class="footer1 col-lg-4">
+                <h4><b>Trust and Safety</b></h4>
+                <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+                <a href="#" class="link2">Learn about trust at Airbnb</a>
+            </div>
+        </div>
+    </footer>
+ 
+<!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<!--subiz-->
+    <script>!function(s,u,b,i,z){var o,t,r,y;s[i]||(s._sbzaccid=z,s[i]=function(){s[i].q.push(arguments)},s[i].q=[],s[i]("setAccount",z),r=["widget.subiz.net","storage.googleapis"+(t=".com"),"app.sbz.workers.dev",i+"a"+(o=function(k,t){var n=t<=6?5:o(k,t-1)+o(k,t-3);return k!==t?n:n.toString(32)})(20,20)+t,i+"b"+o(30,30)+t,i+"c"+o(40,40)+t],(y=function(k){var t,n;s._subiz_init_2094850928430||r[k]&&(t=u.createElement(b),n=u.getElementsByTagName(b)[0],t.async=1,t.src="https://"+r[k]+"/sbz/app.js?accid="+z,n.parentNode.insertBefore(t,n),setTimeout(y,2e3,k+1))})(0))}(window,document,"script","subiz", "acrgxwhfxbvqnggakzgt")</script>
+</body>
+</html>

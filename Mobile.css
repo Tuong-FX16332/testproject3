@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+    nav {
+        font-size: small;
+        background-color: gray;
+    }
+    nav li {
+        padding: 7px;
+    }
+    .banner_doc {
+        margin: 20px 5%;
+    }
+    .content-doc {
+        margin: 20px 5%;
+    }
+    .img-ct {
+        width: 90%;
+        margin: 20px 5%;
+    }
+    .footer1 {
+        margin: 50px 5%;
+    }
+
+    .link1:link {color:aliceblue;}
+    .link1:visited {color: yellow;}
+    .link1:hover {color: rgb(0, 162, 255);}
+    .link1:active {color: royalblue;}
+    .link2:link {color: blue;}
+    .link2:visited {color: red;}
+    .link2:hover {color: rgb(0, 162, 255);}
+    .link2:active {color: royalblue;}
+}
